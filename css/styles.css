@@ -1,0 +1,144 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat";
+}
+p
+{
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+#title {
+
+  text-align: left;
+}
+.container-fluid {
+padding: 3% 7% 15%;
+}
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.download-button {
+margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image {
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+#features {
+  padding: 7% 15%;
+
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.features-box {
+  padding: 4.5%;
+}
+.icon {
+  padding-bottom: 1rem;
+  margin-left: 10%;
+  color: #ef8172;
+}
+.icon:hover {
+  color:#ff4c68;
+  }
+  /* testimonials section */
+  #testimonials {
+    background-color: #ef8172;
+  }
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .testimonials-image {
+    width: 10%;
+    border-radius: 100px;
+    margin: 20px;
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+  #press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+  .press-image {
+    width: 15%;
+    padding: 20px 20px 40px;
+  }
+  /* Pricing section */
+  #pricing {
+  padding: 100px 30px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card-header {
+  background-color: #FAF7F0;
+}
+.pricing-column {
+  padding: 3% 3%;
+
+}
+@media (max-width: 1000px){
+  #title {
+  text-align: center;}
+  .title-image {
+  position: absolute;
+    transform: rotate(0);
+  }
+}
+#cta {
+  padding: 7% 15%;
+}
+.download-button-cta {
+margin: 6% 3% 6% 0;
+}
+#footer {
+  padding: 6% 12%;
+}
+
+.icon-footer {
+  padding: 20px 10px;
+}
